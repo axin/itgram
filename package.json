@@ -1,0 +1,14 @@
+{
+  "name": "itgram",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "workspaces": [
+    "packages/itgram-site",
+    "packages/itgram-bot",
+    "packages/itgram-bot-web-app"
+  ]
+}

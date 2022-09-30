@@ -1,0 +1,20 @@
+{
+  "name": "itgram-bot-web-app",
+  "version": "1.0.0",
+  "description": "Web App for bot",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axin/itgram.git",
+    "directory": "packages/itgram-bot-web-app"
+  },
+  "keywords": [
+    "telegram"
+  ],
+  "author": "Alexey Sazykin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/axin/itgram/issues"
+  },
+  "homepage": "https://github.com/axin/itgram#readme"
+}
