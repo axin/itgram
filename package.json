@@ -4,11 +4,19 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "husky install"
   },
   "workspaces": [
     "packages/itgram-site",
     "packages/itgram-bot",
     "packages/itgram-bot-web-app"
-  ]
+  ],
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "2.7.1"
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx,yml,json,md,css}": "prettier --write"
+  }
 }
