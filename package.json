@@ -12,6 +12,7 @@
         "packages/itgram-bot-web-app"
     ],
     "devDependencies": {
+        "@tsconfig/node18-strictest-esm": "^1.0.1",
         "@types/node": "^18.7.23",
         "@typescript-eslint/eslint-plugin": "^5.38.1",
         "@typescript-eslint/parser": "^5.38.1",
@@ -20,6 +21,7 @@
         "eslint-plugin-react": "^7.31.8",
         "husky": "^8.0.1",
         "lint-staged": "^13.0.3",
-        "prettier": "2.7.1"
+        "prettier": "2.7.1",
+        "typescript": "^4.8.4"
     }
 }
