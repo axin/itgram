@@ -1,0 +1,4 @@
+profiles:
+  dev:
+    endpoint: grpc://ydb:2136
+    database: /local
