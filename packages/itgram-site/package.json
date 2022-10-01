@@ -1,20 +1,6 @@
 {
-  "name": "itgram-site",
-  "version": "1.0.0",
-  "description": "Catalog of IT-related Telegram channels in Russian language",
-  "type": "module",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/axin/itgram.git",
-    "directory": "packages/itgram-site"
-  },
-  "keywords": [
-    "telegram"
-  ],
-  "author": "Alexey Sazykin",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/axin/itgram/issues"
-  },
-  "homepage": "https://github.com/axin/itgram#readme"
+    "name": "itgram-site",
+    "version": "1.0.0",
+    "type": "module",
+    "private": true
 }

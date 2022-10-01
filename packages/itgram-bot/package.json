@@ -1,20 +1,6 @@
 {
-  "name": "itgram-bot",
-  "version": "1.0.0",
-  "description": "Bot for adding Telegram channels to catalog",
-  "type": "module",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/axin/itgram.git",
-    "directory": "packages/itgram-bot"
-  },
-  "keywords": [
-    "telegram"
-  ],
-  "author": "Alexey Sazykin",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/axin/itgram/issues"
-  },
-  "homepage": "https://github.com/axin/itgram#readme"
+    "name": "itgram-bot",
+    "version": "1.0.0",
+    "type": "module",
+    "private": true
 }
