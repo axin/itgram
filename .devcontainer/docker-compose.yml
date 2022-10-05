@@ -1,7 +1,12 @@
 services:
-    bot:
+    dev-env:
         build:
             context: .
+        environment:
+            - YDB_ANONYMOUS_CREDENTIALS=1
+            - ITGRAM_ENDPOINT=grpc://ydb:2136
+            - ITGRAM_DATABASE=/local
+            - ITGRAM_LOGLEVEL=info
         volumes:
             - ..:/workspace:cached
             - ~/.ssh:/home/dev/.ssh

@@ -1,7 +1,7 @@
 {
-    "name": "itgram-bot",
+    "name": "itgram",
     "dockerComposeFile": "docker-compose.yml",
-    "service": "bot",
+    "service": "dev-env",
     "workspaceFolder": "/workspace",
     "remoteUser": "dev",
     "overrideCommand": true,

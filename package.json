@@ -4,7 +4,8 @@
     "type": "module",
     "private": true,
     "scripts": {
-        "prepare": "husky install"
+        "prepare": "husky install",
+        "start:bot": "npm run start -w ./packages/itgram-bot"
     },
     "workspaces": [
         "packages/itgram-site",
@@ -21,7 +22,9 @@
         "eslint-plugin-react": "^7.31.8",
         "husky": "^8.0.1",
         "lint-staged": "^13.0.3",
+        "nodemon": "^2.0.20",
         "prettier": "2.7.1",
+        "ts-node": "^10.9.1",
         "typescript": "^4.8.4"
     }
 }
