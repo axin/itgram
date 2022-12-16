@@ -1,9 +1,9 @@
-FROM ubuntu:22.04
+FROM ubuntu:22.10
 
 ARG USERNAME=dev
 
-ARG NVM_VER=0.39.1
-ARG NODE_VER=18.8.0
+ARG NVM_VER=0.39.2
+ARG NODE_VER=19.3.0
 
 RUN apt-get update \
     && apt-get install -y \
@@ -26,6 +26,7 @@ RUN curl -sSL https://storage.yandexcloud.net/yandexcloud-ydb/install.sh | bash
 SHELL ["/bin/bash", "--login", "-i", "-c"]
 RUN source ~/.bashrc
 RUN nvm install $NODE_VER
+RUN corepack enable
 SHELL ["/bin/bash", "--login", "-c"]
 
 COPY ./ydb/config/config.yaml /home/$USERNAME/ydb/config/config.yaml
