@@ -5,7 +5,10 @@
         "files": true
     },
     "compilerOptions": {
-        "moduleResolution": "nodenext",
+        "experimentalDecorators": true,
+        "resolveJsonModule": true,
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
         "rootDir": "src",
         "outDir": "build"
     },

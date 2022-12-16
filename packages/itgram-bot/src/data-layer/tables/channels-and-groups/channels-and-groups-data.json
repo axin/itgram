@@ -1,0 +1,10 @@
+[
+    { "username": "DEVNSK", "is_group": true, "city_id": 3, "topic_id": 1 },
+    { "username": "javascript_jobs", "topic_id": 1, "content_type_id": 2 },
+    {
+        "username": "NSKITevents",
+        "city_id": 3,
+        "topic_id": 9,
+        "content_type_id": 3
+    }
+]

@@ -23,8 +23,8 @@ services:
             - GRPC_PORT=2136
             - MON_PORT=8765
         volumes:
-            - ydb_certs:/ydb_certs
-            - ydb_data:/ydb_data
+            - ../ydb_certs:/ydb_certs
+            - ../ydb_data:/ydb_data
 
 volumes:
     ydb_certs:

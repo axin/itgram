@@ -1,5 +1,5 @@
 import ydb from "ydb-sdk";
-import { logger } from "./logger.js";
+import { logger } from "../common/logger.js";
 
 const authService = ydb.getCredentialsFromEnv();
 const { ITGRAM_ENDPOINT: endpoint, ITGRAM_DATABASE: database } = process.env;
